@@ -38,8 +38,8 @@ body {
   background-color: var(--bg);
   box-shadow: var(--boxS);
   text-shadow: var(--textS);
-  animation: animate 3s linear infinite;
   -webkit-animation: animate 3s linear infinite;
+  animation: animate 3s linear infinite;
 }
 
 #twitter {
@@ -55,11 +55,11 @@ body {
 }
 @keyframes animate {
   from {
-    filter: hue-rotate(0deg);
     -webkit-filter: hue-rotate(0deg);
+    filter: hue-rotate(0deg);
   }
   to {
-    filter: hue;
     -webkit-filter: hue-rotate(360deg);
+    filter: hue;
   }
 }
